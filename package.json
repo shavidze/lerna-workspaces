@@ -1,0 +1,14 @@
+{
+  "name": "@lerna-learn/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna exec --scope @lerna-learn/app -- yarn start"
+  },
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^6.6.1"
+  }
+}
